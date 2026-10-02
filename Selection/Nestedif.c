@@ -1,0 +1,21 @@
+#include <stdio.h>
+void main()
+{
+    int a, b, c;
+    printf("\nEnter three numbers : ");
+    scanf("%d%d%d", &a, &b, &c);
+    if (a > b)
+    {
+        if (a > c)
+            printf("Greatest number : %d", a);
+        else
+            printf("Greatest number : %d", c);
+    }
+    else
+    {
+        if (b > c)
+            printf("Greatest number : %d", b);
+        else
+            printf("Greatest number : %d", c);
+    }
+}
